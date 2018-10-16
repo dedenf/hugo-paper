@@ -234,7 +234,7 @@ pre, code {
 /* First entry */
 .first-entry {
   position: relative;
-  min-height: calc(100vh - 65px - 80px);
+  /* min-height: calc(100vh - 65px - 80px); */
   margin-bottom: 80px;
   padding-top: 12vh;
   padding-bottom: 12vh;
@@ -243,6 +243,7 @@ pre, code {
 .welcome-emoji {
   font-size: 60px;
   line-height: 1;
+  display:none;
 }
 .first-entry .post-title {
   font-size: 50px;
